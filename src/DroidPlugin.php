@@ -12,7 +12,6 @@ class DroidPlugin
     public function getCommands()
     {
         $commands = [];
-        $commands[] = new \Droid\Plugin\Homebrew\Command\HomebrewInstallCommand();
         $commands[] = new \Droid\Plugin\Homebrew\Command\BrewInstallCommand();
         $commands[] = new \Droid\Plugin\Homebrew\Command\BrewUninstallCommand();
         $commands[] = new \Droid\Plugin\Homebrew\Command\BrewUnlinkCommand();
